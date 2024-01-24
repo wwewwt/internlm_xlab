@@ -26,11 +26,11 @@ def on_btn_click():
 @st.cache_resource
 def load_model():
     model = (
-        AutoModelForCausalLM.from_pretrained("./ft-zuchongzhi-merged", trust_remote_code=True)
+        AutoModelForCausalLM.from_pretrained("wwewwt/zuchongzhi", trust_remote_code=True)
         .to(torch.bfloat16)
         .cuda()
     )
-    tokenizer = AutoTokenizer.from_pretrained("./ft-zuchongzhi-merged", trust_remote_code=True)
+    tokenizer = AutoTokenizer.from_pretrained("wwewwt/zuchongzhi", trust_remote_code=True)
     return model, tokenizer
 
 
@@ -76,7 +76,7 @@ def main():
     user_avator = "images/user.png"
     robot_avator = "images/robot.png"
 
-    st.title("小学算数侠 by 风云再起")
+    st.title("应用题小达人 by 风云再起")
 
     generation_config = prepare_generation_config()
 
