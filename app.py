@@ -13,6 +13,9 @@ import streamlit as st
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers.utils import logging
+from modelscope import snapshot_download
+import os
+
 
 from tools.transformers.interface import GenerationConfig, generate_interactive
 
@@ -25,12 +28,13 @@ def on_btn_click():
 
 @st.cache_resource
 def load_model():
+    model_dir = snapshot_download('wwewwt/zuchongzhi', cache_dir='./model', revision='v1.0.0')
     model = (
-        AutoModelForCausalLM.from_pretrained("wwewwt/zuchongzhi", trust_remote_code=True)
+        AutoModelForCausalLM.from_pretrained("./model/wwewwt/zuchongzhi", trust_remote_code=True)
         .to(torch.bfloat16)
         .cuda()
     )
-    tokenizer = AutoTokenizer.from_pretrained("wwewwt/zuchongzhi", trust_remote_code=True)
+    tokenizer = AutoTokenizer.from_pretrained("./model/wwewwt/zuchongzhi", trust_remote_code=True)
     return model, tokenizer
 
 
