@@ -1,6 +1,6 @@
 # chat_本山大叔
 
-***OpenXLab 体验地址：https://openxlab.org.cn/apps/detail/-----/-------Chat_huanhuan***
+***OpenXLab 体验地址：https://openxlab.org.cn/apps/detail/-----/-------***
 
 ***chat_本山大叔 模型下载地址：***
 
