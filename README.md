@@ -2,7 +2,7 @@
 
 ***OpenXLab 体验地址：https://openxlab.org.cn/apps/detail/-----/-------Chat_huanhuan***
 
-***Chat-嬛嬛 模型下载地址：***
+***chat_本山大叔 模型下载地址：***
 
 ***7B: https://www.modelscope.cn/models/***
 
