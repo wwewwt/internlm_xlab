@@ -1,19 +1,19 @@
-# chat_本山大叔
+# chat_韦小宝
 
 ***OpenXLab 体验地址：https://openxlab.org.cn/apps/detail/-----/-------***
 
-***chat_本山大叔 模型下载地址：***
+***chat_韦小宝 模型下载地址：***
 
 ***7B: https://www.modelscope.cn/models/***
 
 ***1.8B: https://www.modelscope.cn/models/***
 
-> *此仓库主要用于将 chat_本山大叔 项目部署到 OpenXLab 或 ModelScope 。*
+> *此仓库主要用于将 chat_韦小宝 项目部署到 OpenXLab 或 ModelScope 。*
 
 
 ## 介绍
 
-&emsp;&emsp;chat_本山大叔是利用历年春晚本山大叔小品剧本中所有关于赵本山的台词和语句，基于[InternLM2](https://github.com/InternLM/InternLM.git)进行LoRA微调或全量微调得到的模仿本山大叔语气的聊天语言模型。
+&emsp;&emsp;chat_本山大叔是利用鹿鼎记中所有关于韦小宝的台词和语句，基于[InternLM2](https://github.com/InternLM/InternLM.git)进行LoRA微调或全量微调得到的模仿韦小宝语气的聊天语言模型。
 
 
 > 如何学习大模型部署和微调请参考：[开源大模型食用指南](https://github.com/datawhalechina/self-llm.git) 以及 [书生·浦语大模型实战营课程](https://github.com/InternLM/tutorial.git)
